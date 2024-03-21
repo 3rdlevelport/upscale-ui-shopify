@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>UpScale HTML Tag</title>
+  <script type="text/javascript">
+    document.addEventListener('DOMContentLoaded', function() {
+        var shopOrigin = new URLSearchParams(window.location.search).get('shop');
+        var app = createApp({
+            apiKey: '6b9840aab2ae2ea7adecd3e648687414',
+            shopOrigin: shopOrigin,
+            forceRedirect: true,
+        });
+        // Additional App Bridge code goes here
+    });
+  </script>
+  <meta name="shopify-api-key" content="6b9840aab2ae2ea7adecd3e648687414" />
+  <script src="https://cdn.shopify.com/shopifycloud/app-bridge.js"></script>
+</head>
+
+
+<body>
+
+
+
+</body>
+</html>
